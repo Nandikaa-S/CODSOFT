@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#about img {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+#skills ul {
+    list-style: none;
+    text-align: center;
+}
+
+#skills li {
+    background: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#resume a {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    background: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#contact p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 8px 0;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 15px 0;
+    margin-top: 30px;
+}
